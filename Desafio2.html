@@ -1,0 +1,27 @@
+<html lang=“pt-br”>
+	<head>
+		<title>Desafio 2</title>
+		<meta charset=“UTF-8”>
+		<script>
+			//Declarando a variavel
+			let nota1, nota2, media;
+			//Recebendo a informação
+			nota1 = parseFloat(prompt("Por favor informe sua primeira nota:"));
+			nota2 = parseFloat(prompt("Por favor informe sua segunda nota:"));
+			media = (nota1+nota2)/2;
+			document.write("Sua média é "+media+"!!!<br>");
+			//Utilizando If
+			if(media >= 7){
+				document.write("Você está Aprovado!");
+			}else if(media < 5){
+				document.write("Você está reprovado!");
+			}else{
+				document.write("Você está de recuperação!");
+			}
+			
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
